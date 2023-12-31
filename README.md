@@ -1,1 +1,1 @@
-# grid-toystore
+# toy-store

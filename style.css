@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+nav{
+  display: flex;
+height: 12vh;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+padding: 2rem;
+}
+.nav-logo img{
+  width: 12rem;
+}
+.nav-items ul {
+  display: flex;
+  list-style: none;
+gap: 2rem;
+  
+}
+.nav-items ul li a{
+text-decoration: none;
+color: gray;
+}
+.nav-items ul li a:hover{
+text-decoration: underline;
+text-underline-offset: 1rem;
+color: black;
+}
+
+#ham-nav{
+ display: none;
+}
+.menu-items{
+  position: absolute;
+top:4rem;
+right: 8rem;
+height:0;
+overflow: hidden;
+width: fit-content;
+background-color: aqua;
+}
+.menu-items li a{
+  text-decoration: none;
+}
+.menu-items li a:hover{
+  color: red;
+}
+
+.open{
+  height: 9rem;
+}
+.container{
+  
+  max-width: 1100px; 
+  margin: auto;
+  padding:20px; 
+  overflow: hidden;
+}
+
+
+/* hero section */
+.main-container{
+  height: 100vh;
+  max-width: 1100px; 
+  margin: auto;
+  padding:20px; 
+  overflow: hidden;
+}
+
+.hero-section{
+display: grid;
+grid-template-columns: 2fr 1fr;
+align-items: center;
+grid-template-areas: ;
+}
+.btn-hero{
+  padding: 1rem;
+  font-weight: 600;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  margin-left: 6rem;
+  margin-top: 1rem;
+}
+.btn-hero:hover{
+  background-color: white;
+  color: black;
+}
+/* hero section img */
+
+.img-row img{
+  width: 15rem;
+}
+.img-row {
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  justify-items:center
+}
+
+/* features */
+.features-title{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+}
+.col-4 img{
+  width: 10rem;
+  height: 15rem;
+}
+.col-4 img:hover{
+transform: translatey(6px);
+}
+.features{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.col-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.features-two{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  row-gap: 1rem;
+}
+
+.offer-img img{
+  width: 30rem;
+}
+.offer{
+  display: grid;
+  grid-template-columns:2fr 2fr;
+}
+.offer-text{
+  align-self: center;
+}
+.offer-textp{
+  color: red;
+}
+.btn-offer{
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  border-radius: 2px;
+  background-color: red;
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.btn-offer:hover{
+
+  background-color: white;
+  color: black;
+
+}
+
+.col-5 img{
+  width: 10rem;
+}
+.brands{
+  padding: 2rem;
+  display: grid;
+ grid-template-columns: repeat(5,1fr);
+}
+.app-logo img{
+width: 10rem;
+}
+.footer-col-2 img{
+  width: 10rem;
+}
+
+.footer-col-3 ul li{
+  list-style: none;
+}
+.footer-col-4 ul li{
+  list-style: none;
+}
+.footer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+ gap: 2rem;
